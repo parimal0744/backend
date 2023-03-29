@@ -20,7 +20,6 @@ import com.task.service.UserService;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = "http://parimalbiswas.in", maxAge = 3600)
 public class UserController
 {
 
